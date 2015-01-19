@@ -1,0 +1,63 @@
+.header {
+	background: url('image001.png') no-repeat center;
+	height: 152px;
+	width: 1024px;
+}
+.wrapper {
+	height: 768px;
+	width: 1024px;
+	background-color: #ffffff;
+}
+.kitNumber {
+	text-align: center;
+	width: 1024px;
+}
+.kitNumber .number{
+	font-weight: bold;
+}
+.kitNumber .customerServiceText {
+	font-weight: bold;
+}
+.vehicleInfo {
+	float: left;
+	margin-bottom:10px;
+	width: 1024px;
+}
+.vehicleInfo .spacer {
+	float: left;
+	height: 100%;
+	width: 12%;
+}
+.vehicleInfo .vehicleTable {
+	float: left;
+	width: 76%;
+}
+.makeHeader {
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 24px;
+}
+html {
+	background-color: #ffffff;
+}
+table {
+  border-collapse: collapse;
+}
+table, th {
+	background-color: #53ab3a;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 0px 5px 0px 5px;
+}
+table, td {
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	color: #000000;
+	font-size: 12px;
+	padding: 0px 5px 0px 5px;
+	text-align: center;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
